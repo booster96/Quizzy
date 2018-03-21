@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quizzy</string>
+    <string-array name="interests">
+        <item>Bollywood</item>
+        <item>Cricket</item>
+        <item>Football</item>
+        <item>Geography</item>
+        <item>History</item>
+        <item>Polity</item>
+    </string-array>
+    <string name="finish_message">All Questions done. Please Click ok to play again!!!</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="title_activity_finish">FinishActivity</string>
+    <string name="title_activity_select">SelectActivity</string>
+</resources>

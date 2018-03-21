@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="com.example.prashant.quizzy.StartActivity">
+
+    <ImageView
+        android:id="@+id/start_icon_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/appicon"
+        />
+
+    <Button
+        android:id="@+id/choose_interest_id"
+        android:onClick="selectInterest"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choose interest"
+        android:textStyle="bold"/>
+
+</LinearLayout>
